@@ -108,7 +108,6 @@ body {
 
 .main__opciones {
     background-color: #efefef;
-    flex: 2;
     text-align: center;
     padding: 35px;
     height: auto;
@@ -275,4 +274,105 @@ body {
     opacity: 0.9;
     transition: ease 0.3s;
     transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+/*MEDIA 1024*/
+
+@media screen and (min-width: 1024px) {
+    
+
+}
+
+/*MEDIA 768*/
+
+@media screen and (max-width: 768) {
+    
+}
+
+/*MEDIA 425*/
+
+@media screen and (max-width: 425px) {
+    
+.grid-contenedor {
+    height: none;
+    width: auto
+}
+
+.header {
+    display: inline;
+    justify-content: center;
+    max-width: 424px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: block;
+    margin: 5px;
+    padding: 10pxpx;
+}
+
+.main {
+    max-width: 424px;
+}
+
+.main__cambio__h3 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.main__cambio__p {
+    margin: 5px;
+    padding: 15px;
+}
+
+.main__opciones {
+    font-size: 22px;
+    padding: 5px;
+    margin: 0;
+}
+
+.main__opciones__carta3__form__button {
+    font-size: 15px;
+}
+
+.main__caracteristicas__container__list {
+    display: contents;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main__presupuesto {
+    text-align: center;
+    height: auto;
+    background-color: #111;
+    color: rgb(11, 157, 197);
+    padding: 20px 10px 25px 10px;
+}
+
+
+.main__presupuesto__titulo {
+    margin-bottom: 40px;
+}
+
+.main__presupuesto__form__button {
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.footer{
+    max-width: 424px;
+}
+
 }

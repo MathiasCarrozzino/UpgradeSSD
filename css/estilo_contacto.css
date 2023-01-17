@@ -40,8 +40,12 @@ body {
     color: white;
 }
 
-.footer {
+.main {
     height: auto;
+}
+
+.footer {
+
 }
 
 .footer__container {
