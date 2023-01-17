@@ -3,15 +3,20 @@ body {
     margin: 0;
 }
 
-.contenedor {
+.grid-contenedor {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'header'
+                        'main'
+                        'footer';
+    grid-template-rows: 1fr auto 1fr;
+    height: 100vh;
+    width: auto;
 }
 
 .header {
     display: flex;
-    min-height: 70px;
-    background-color: #000000;
+    grid-area: header;
+    background-color: #111;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -37,6 +42,8 @@ body {
 
 .nav {
     display: flex;
+    justify-items: end ;
+ align-items: center;
 }
 
 .nav__anchor {
@@ -50,6 +57,10 @@ body {
     color: white;
 }
 
+
+.main {
+    grid-area: main;
+}
 
 .main__servicios {
     display: flex;
@@ -242,13 +253,10 @@ body {
 }
 
 .footer {
-    height: auto;
-}
-
-.footer__container {
-    position:relative;
-    text-align: center;
-
+    display: flex;
+    grid-area: footer;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__container__anchor {
