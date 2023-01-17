@@ -52,10 +52,6 @@ body {
 
 .main {
     grid-area: main;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     background-image:linear-gradient(
 		0deg,
 		rgba(0,0,0,0.5),
@@ -63,7 +59,6 @@ body {
 	) ,url(../imagenes/lento.jpg);
     background-position: center center;
     background-size:cover;
-    display: block;
     padding: 30px;
 }
 
@@ -117,4 +112,64 @@ body {
     opacity: 0.9;
     transition: ease 0.3s;
     transform: scale(1.2);
+}
+
+
+
+
+/*MEDIA 1024*/
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+/*MEDIA 768*/
+
+@media screen and (max-width: 768) {
+    
+}
+
+/*MEDIA 425*/
+
+@media screen and (max-width: 425px) {
+    
+     .grid-contenedor {
+        height: none;
+        width: auto
+    }
+    
+    .header {
+        display: block;
+        justify-content: center;
+    }
+    
+    .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main h2 {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main p {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
 }
