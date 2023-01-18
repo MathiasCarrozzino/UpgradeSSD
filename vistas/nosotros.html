@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UpgradeSSD - Nosotros</title>
 	<link rel="stylesheet" href="../css/estilo_nosotros.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../imagenes/iconohtml.png">
 </head>
 <body>
@@ -15,16 +16,20 @@
                 <h2 class="header__logo__nombre">UpgradeSSD</h2>
             </div>
             <nav class="nav">
-                <a class="nav__anchor" href="../index.html" class="nav-link">Inicio</a>
-                <a class="nav__anchor" href="../vistas/nosotros.html" class="nav-link">Nosotros</a>
-                <a class="nav__anchor" href="../vistas/tienda.html" class="nav-link">Tienda</a>
-                <a class="nav__anchor" href="../vistas/trabajos.html" class="nav-link">Nuestros trabajos</a>
-                <a class="nav__anchor" href="../vistas/contacto.html" class="nav-link">Contacto</a>
+                <a class="nav__anchor" href="../index.html">Inicio</a>
+                <a class="nav__anchor" href="../vistas/nosotros.html">Nosotros</a>
+                <a class="nav__anchor" href="../vistas/tienda.html">Tienda</a>
+                <a class="nav__anchor" href="../vistas/trabajos.html">Nuestros trabajos</a>
+                <a class="nav__anchor" href="../vistas/contacto.html">Contacto</a>
             </nav>
         </header>
         <main class="main">
+            <section class="main__section">
+                <div data-aos="fade-left" class="main__section__contenedor">
                     <h2>Emprendimiento UpgradeSSD</h2>
                     <p class="main__texto">Este emprendimiento nace con la idea de crear soluciones para personas que por diferentes motivos requieren actualizar sus ordenadores.</p>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <div class="footer__container">
@@ -37,5 +42,13 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 0,
+            duration: 2000,
+        }
+        );
+     </script>
 </body>
 </html>

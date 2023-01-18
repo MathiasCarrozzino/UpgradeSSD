@@ -67,3 +67,56 @@ body {
     transition: ease 0.3s;
     transform: scale(1.2);
 }
+
+
+
+
+/*MEDIA 1024*/
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+/*MEDIA 768*/
+
+@media screen and (max-width: 768) {
+    
+}
+
+/*MEDIA 425*/
+
+@media screen and (max-width: 425px) {
+    
+.grid-contenedor {
+    height: none;
+    width: auto
+}
+
+.header {
+    display: inline;
+    justify-content: center;
+    max-width: 424px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+}
+
+.main {
+    max-width: 424px;
+}
+
+.footer{
+    max-width: 424px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+}

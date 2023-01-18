@@ -299,9 +299,9 @@ body {
 }
 
 .header {
-    display: inline;
+    display: grid;
     justify-content: center;
-    max-width: 424px;
+    width: auto;
 }
 
 .header__logo {
@@ -310,13 +310,16 @@ body {
 }
 
 .nav {
-    display: block;
-    margin: 5px;
-    padding: 10px;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .main {
-    max-width: 424px;
+    width: auto;
 }
 
 .main__cambio__h3 {
@@ -364,7 +367,7 @@ body {
 }
 
 .footer{
-    max-width: 424px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 40px;
 }
