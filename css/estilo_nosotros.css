@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .grid-contenedor {
@@ -52,9 +53,6 @@ body {
 
 .main {
     grid-area: main;
-}
-
-.main__section {
     background-image:linear-gradient(
 		0deg,
 		rgba(0,0,0,0.5),
@@ -62,6 +60,9 @@ body {
 	) ,url(../imagenes/lento.jpg);
     background-position: center center;
     background-size:cover;
+}
+
+.main__section {
     padding: 30px;
     text-align: center;
     justify-content: center;
@@ -86,25 +87,19 @@ body {
 }
 
 .footer {
+    display: flex;
     grid-area: footer;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__container {
-    position:relative;
-    text-align: center;
-
-}
-
-.footer__container__anchor {
-    text-decoration: none;
-    color: rgb(11, 157, 197);
-    font-weight: 600;
+    padding: 10px;
 }
 
 .footer__container__img {
     height: 50px;
     padding: 10px;
-    align-items: center;
 }
 
 .footer__container__img:hover {
@@ -179,7 +174,7 @@ body {
 }
 
 .main p {
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
     font-size: 25px;
 }
@@ -187,5 +182,5 @@ body {
 .footer{
     width: auto;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }

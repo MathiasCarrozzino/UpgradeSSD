@@ -257,16 +257,13 @@ body {
     align-items: center;
 }
 
-.footer__container__anchor {
-    text-decoration: none;
-    color: rgb(11, 157, 197);
-    font-weight: 600;
+.footer__container {
+    padding: 10px;
 }
 
 .footer__container__img {
     height: 50px;
     padding: 10px;
-    align-items: center;
 }
 
 .footer__container__img:hover {
@@ -369,7 +366,8 @@ body {
 .footer{
     width: auto;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 }
+
