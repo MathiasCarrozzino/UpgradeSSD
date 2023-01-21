@@ -8,7 +8,6 @@ body {
     background-color: #111;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 .header__logo__nombre {
@@ -21,6 +20,7 @@ body {
 .header__logo {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .header__logo__img {
@@ -101,6 +101,7 @@ body {
 .header__logo {
     display: flex;
     justify-content: center;
+    padding: none;
 }
 
 .nav {

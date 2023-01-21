@@ -8,7 +8,6 @@ body {
     background-color: #111;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 .header__logo__nombre {
@@ -21,6 +20,7 @@ body {
 .header__logo {
     display: flex;
     align-items: center;
+    padding: 20px;
 }
 
 .header__logo__img {
@@ -112,3 +112,52 @@ body {
     margin: 16px 0;
     font-size: 16px;
   }
+
+
+
+  /*MEDIA 1024*/
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+/*MEDIA 768*/
+
+@media screen and (max-width: 768) {
+    
+}
+
+/*MEDIA 425*/
+
+@media screen and (max-width: 425px) {
+    
+    .grid-contenedor {
+        height: none;
+        width: auto
+    }
+    
+    .header {
+        display: inline;
+        justify-content: center;
+        max-width: 424px;
+    }
+    
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        padding: none;
+    }
+    
+    .nav {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .footer{
+        max-width: 424px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    
+    }
