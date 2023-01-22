@@ -54,9 +54,9 @@ body {
 .main {
     grid-area: main;
     background-image:linear-gradient(
-		0deg,
-		rgba(0,0,0,0.5),
-		rgba(0,0,0,0.45)
+	100deg,
+		rgba(0, 0, 0, 0.555),
+		rgba(0, 0, 0, 0.514)
 	) ,url(../imagenes/lento.jpg);
     background-position: center center;
     background-size:cover;
@@ -69,21 +69,21 @@ body {
 }
 
 .main h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 214, 221);
     font-size: 45px;
     margin: 100px 200px 100px 200px;
     padding: 20px;
     font-weight: 1000;
-    text-shadow: 3px 3px 10px rgb(52, 126, 255);
+    text-shadow: 3px 3px 10px rgb(38, 0, 255);
 }
 
 .main p {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 214, 221);
     font-size: 29px;
     margin: 100px 200px 100px 200px;
     padding: 50px;
     font-weight: 800;
-    text-shadow: 3px 3px 10px rgb(52, 126, 255);
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 
 .footer {
@@ -134,8 +134,8 @@ body {
 
 .header {
     display: grid;
-    width: auto;
     justify-content: center;
+    width: auto;
 }
 
 .header__logo {
@@ -170,13 +170,13 @@ body {
 
 .main__section__contenedor {
     display: inline;
-    padding: 20px;
+    padding: 5px;
 }
 
 .main h2 {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .main p {
@@ -187,7 +187,6 @@ body {
 
 .footer{
     width: auto;
-    padding-top: 10px;
     padding-bottom: 10px;
 }
 
