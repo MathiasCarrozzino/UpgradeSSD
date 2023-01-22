@@ -152,7 +152,12 @@ body {
     .header__logo {
         display: flex;
         justify-content: center;
-        padding: none;
+        padding: 0px;
+        margin-top: 15px;
+    }
+    
+    .header__logo__img {
+        margin-left: 0px;
     }
     
     .nav {
@@ -171,7 +176,7 @@ body {
 
     .main__formulario {
         width: auto;
-        margin: 15px;
+        margin: 25px;
     }
 
     .footer{
@@ -180,4 +185,19 @@ body {
         padding-bottom: 10px;
     }
     
+    }
+
+    /* MEDIA PARA VER CORRECTAMENTE EL TITULO Y LOGO EN GALAXY FOLD */
+
+    @media screen and (max-width: 359px) {
+        
+        .header__logo__nombre {
+            font-size: 25px;
+        }
+
+        .header__logo__img {
+            width: auto;
+            height: 50px;
+        }
+
     }

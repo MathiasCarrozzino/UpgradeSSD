@@ -109,7 +109,11 @@ body {
 .header__logo {
     display: flex;
     justify-content: center;
-    padding: none;
+    padding: 0px;
+}
+
+.header__logo__img {
+    margin-left: 0px;
 }
 
 .nav {
@@ -151,4 +155,19 @@ body {
     width: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* MEDIA PARA VER CORRECTAMENTE EL TITULO Y LOGO EN GALAXY FOLD */
+
+@media screen and (max-width: 359px) {
+        
+    .header__logo__nombre {
+         font-size: 25px;
+    }
+
+    .header__logo__img {
+         width: auto;
+         height: 50px;
+    }
+
 }
