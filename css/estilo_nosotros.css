@@ -190,6 +190,8 @@ body {
     padding-bottom: 10px;
 }
 
+}
+
 /* MEDIA PARA VER CORRECTAMENTE EL TITULO Y LOGO EN GALAXY FOLD */
 
 @media screen and (max-width: 359px) {
