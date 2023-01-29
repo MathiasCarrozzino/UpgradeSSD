@@ -52,26 +52,26 @@ body {
 
 .main {
     grid-area: main;
+    background-color: #273F4B;
 }
 
 .main__formulario {
     width: 850px;
     background: #24303c;
     padding: 40px;
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px auto 50px auto;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
   
-.main__formulario h4 {
+.main__formulario h2 {
     font-size: 22px;
     margin-bottom: 20px;
 }
   
-.controls {
+.main__formulario__input {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -89,7 +89,7 @@ body {
     text-decoration: underline;
 }
   
-.main__formulario .botons {
+.main__formulario__botons {
     width: 100%;
     background: #1f53c5;
     border: none;
