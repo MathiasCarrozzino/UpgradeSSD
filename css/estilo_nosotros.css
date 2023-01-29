@@ -113,82 +113,200 @@ body {
 
 /*MEDIA 1024*/
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+
+    .header {
+        display: grid;
+        width: auto;
+        justify-content: center;
+    }
     
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .header__logo__img {
+        margin-left: 0px;
+    }
+    
+    .nav {
+        display: grid;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .main {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main__section {
+        padding: 0;
+        margin: 100px 0 100px 0;
+    }
+    
+    .main__section__contenedor {
+        display: inline;
+        padding: 5px;
+    }
+    
+    .main h2 {
+        padding: 0px;
+        margin: 20px 0 20px 0;
+        font-size: 35px;
+    }
+    
+    .main p {
+        padding: 20px;
+        margin: 0px;
+        font-size: 25px;
+    }
+    
+    .footer{
+        width: auto;
+        padding-bottom: 10px;
+    }    
 }
 
 /*MEDIA 768*/
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     
+    .grid-contenedor {
+        height: none;
+        width: auto;
+    }
+    
+    .header {
+        display: grid;
+        justify-content: center;
+        width: auto;
+    }
+    
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    
+    .header__logo__img {
+        margin-left: 0px;
+    }
+    
+    .nav {
+        display: grid;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .main {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main__section {
+        padding: 0;
+        width: auto;
+    }
+    
+    .main__section__contenedor {
+        display: inline;
+        padding: 5px;
+    }
+    
+    .main h2 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 28px;
+    }
+    
+    .main p {
+        padding: 20px;
+        margin: 0px;
+        font-size: 25px;
+    }
+    
+    .footer{
+        width: auto;
+        padding-bottom: 10px;
+    }    
 }
 
 /*MEDIA 425*/
 
 @media screen and (max-width: 425px) {
     
-.grid-contenedor {
-    height: none;
-    width: auto;
-}
+    .grid-contenedor {
+        height: none;
+        width: auto;
+    }
 
-.header {
-    display: grid;
-    justify-content: center;
-    width: auto;
-}
+    .header {
+        display: grid;
+        justify-content: center;
+        width: auto;
+    }
 
-.header__logo {
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-}
+    .header__logo {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
 
-.header__logo__img {
-    margin-left: 0px;
-}
+    .header__logo__img {
+        margin-left: 0px;
+    }
 
-.nav {
-    display: grid;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-}
+    .nav {
+        display: grid;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
 
-.main {
-    width: auto;
-    padding: 0;
-    margin: 0;
-}
+    .main {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
 
-.main__section {
-    padding: 0;
-    width: auto;
-}
+    .main__section {
+        padding: 0;
+        width: auto;
+    }
 
-.main__section__contenedor {
-    display: inline;
-    padding: 5px;
-}
+    .main__section__contenedor {
+        display: inline;
+        padding: 5px;
+    }
 
-.main h2 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 28px;
-}
+    .main h2 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 28px;
+    }
 
-.main p {
-    padding: 20px;
-    margin: 0px;
-    font-size: 25px;
-}
+    .main p {
+        padding: 20px;
+        margin: 0px;
+        font-size: 25px;
+    }
 
-.footer{
-    width: auto;
-    padding-bottom: 10px;
-}
+    .footer{
+        width: auto;
+        padding-bottom: 10px;
+    }
 
 }
 
