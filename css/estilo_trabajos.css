@@ -179,6 +179,11 @@ body {
         padding: 0;
     }
 
+    .main__section__contenedor__imagen {
+        margin: 0;
+        margin: 15px 0 15px 0;
+    }
+
     .main h2 {
         padding: 0;
         margin: 10px;
