@@ -213,6 +213,7 @@ body {
     }
     .main__tienda {
         margin: 0;
+        margin-bottom: 10px;
     }
     
     .main__tienda__producto {
@@ -310,6 +311,7 @@ body {
 }
 .main__tienda {
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .main__tienda__producto {
