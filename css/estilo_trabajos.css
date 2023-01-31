@@ -139,7 +139,7 @@ body {
     }
     
     .nav {
-        display: grid;
+        display: flex;
         margin: 0px;
         padding: 0px;
         text-align: center;
@@ -174,12 +174,9 @@ body {
     }
     
     .nav {
-        display: grid;
+        display: flex;
         margin: 0px;
         padding: 0px;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
     }
     
 
