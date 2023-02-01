@@ -146,7 +146,7 @@ body {
 
 
 
-/*MEDIA 1024*/
+/*MEDIA HASTA 1024px*/
 
 @media screen and (max-width: 1024px) {
     .header {
@@ -176,7 +176,7 @@ body {
     
 }
 
-/*MEDIA 768*/
+/*MEDIA HASTA 768px*/
 
 @media screen and (max-width: 768px) {
     .grid-contenedor {
@@ -270,7 +270,7 @@ body {
     }
 }
 
-/*MEDIA 425*/
+/*MEDIA HASTA 425px*/
 
 @media screen and (max-width: 425px) {
     

@@ -1,0 +1,19 @@
+{
+  "name": "upgradessd",
+  "version": "1.0.0",
+  "description": "Paquete de node para compilar SCSS a CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathiasCarrozzino/UpgradeSSD.git"
+  },
+  "author": "Mathias Carrozzino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathiasCarrozzino/UpgradeSSD/issues"
+  },
+  "homepage": "https://github.com/MathiasCarrozzino/UpgradeSSD#readme"
+}

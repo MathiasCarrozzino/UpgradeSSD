@@ -42,7 +42,7 @@ body {
 .nav {
     display: flex;
     justify-items: end ;
- align-items: center;
+    align-items: center;
 }
 
 .nav__anchor {
