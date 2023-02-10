@@ -4,7 +4,9 @@
   "description": "Paquete de node para compilar SCSS a CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/footer.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MathiasCarrozzino/UpgradeSSD/issues"
   },
-  "homepage": "https://github.com/MathiasCarrozzino/UpgradeSSD#readme"
+  "homepage": "https://github.com/MathiasCarrozzino/UpgradeSSD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
