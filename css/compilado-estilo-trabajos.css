@@ -41,6 +41,37 @@
   .header__nav__anchor:hover {
     color: white; }
 
+.main {
+  grid-area: main;
+  background-color: #273F4B; }
+  .main h2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    font-weight: 800;
+    color: #0b9dc5;
+    text-shadow: 3px -3px 3px #111; }
+  .main__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .main__section__contenedor {
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .main__section__contenedor:hover {
+    opacity: 0.9;
+    transition: ease 0.3s;
+    transform: scale(1.2); }
+  .main__section__contenedor__imagen {
+    height: 160px;
+    width: 324px;
+    margin: 30px;
+    box-shadow: 5px -5px 5px #6A8595;
+    border-radius: 5px;
+    border: 1px solid #868686; }
+
 .footer {
   display: flex;
   grid-area: footer;

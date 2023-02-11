@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss sass/origen.scss css/compilado.css",
+    "build-css": "node-sass --include-path scss sass/estilo-index.scss css/compilado-estilo-index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss sass/estilo-nosotros.scss css/compilado-estilo-nosotros.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss sass/estilo-tienda.scss css/compilado-estilo-tienda.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss sass/estilo-trabajos.scss css/compilado-estilo-trabajos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
