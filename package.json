@@ -12,6 +12,8 @@
     "build-css": "node-sass --include-path scss sass/estilo-tienda.scss css/compilado-estilo-tienda.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "build-css": "node-sass --include-path scss sass/estilo-trabajos.scss css/compilado-estilo-trabajos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss sass/estilo-contacto.scss css/compilado-estilo-contacto.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
