@@ -1,0 +1,17 @@
+.footer {
+        display: flex;
+        grid-area: footer;
+        justify-content: center;
+        align-items: center;
+        &__container {
+            padding: 10px;}
+
+        &__container__img {
+            height: 50px;
+            padding: 10px;}
+
+        &__container__img:hover {
+            opacity: 0.9;
+            transition: ease 0.3s;
+            transform: scale(1.2);}
+        }
