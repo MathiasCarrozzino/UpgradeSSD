@@ -341,7 +341,8 @@
   .header__logo {
     display: flex;
     justify-content: center;
-    padding: 0px; }
+    padding: 0px;
+    padding-top: 10px; }
   .header__logo__img {
     margin-left: 0px; }
   .header__nav {
@@ -364,7 +365,8 @@
   .header__logo {
     display: flex;
     justify-content: center;
-    padding: 0px; }
+    padding: 0px;
+    padding-top: 10px; }
   .header__logo__img {
     margin-left: 0px; }
   .header__nav {
@@ -390,7 +392,8 @@
   .header__logo {
     display: flex;
     justify-content: center;
-    padding: 0px; }
+    padding: 0px;
+    padding-top: 10px; }
   .header__logo__img {
     margin-left: 0px; }
   .header__nav {
@@ -618,45 +621,8 @@
     text-align: center;
     padding: 5px; } }
 
-/*MEDIA TRABAJOS HASTA 1024px*/
-@media screen and (max-width: 1024px) {
-  .header {
-    display: grid;
-    width: auto;
-    justify-content: center; }
-  .header__logo {
-    display: flex;
-    justify-content: center;
-    padding: 0px; }
-  .header__logo__img {
-    margin-left: 0px; }
-  .nav {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center; } }
-
 /*MEDIA TRABAJOS HASTA 768px*/
 @media screen and (max-width: 768px) {
-  .grid-contenedor {
-    height: none;
-    width: auto; }
-  .header {
-    display: grid;
-    justify-content: center;
-    width: auto; }
-  .header__logo {
-    display: flex;
-    justify-content: center;
-    padding: 0px; }
-  .header__logo__img {
-    margin-left: 0px; }
-  .nav {
-    display: flex;
-    margin: 0px;
-    padding: 0px; }
   .trabajos__main {
     padding: 0;
     margin: 0; }
@@ -672,33 +638,10 @@
     padding: 0;
     margin: 10px;
     font-size: 30px;
-    text-align: center; }
-  .footer {
-    width: auto;
-    padding-bottom: 10px; } }
+    text-align: center; } }
 
 /*MEDIA TRABAJOS HASTA 425px*/
 @media screen and (max-width: 425px) {
-  .grid-contenedor {
-    height: none;
-    width: auto; }
-  .header {
-    display: grid;
-    justify-content: center;
-    width: auto; }
-  .header__logo {
-    display: flex;
-    justify-content: center;
-    padding: 0px; }
-  .header__logo__img {
-    margin-left: 0px; }
-  .nav {
-    display: grid;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center; }
   .trabajos__main {
     padding: 0;
     margin: 0; }
@@ -714,18 +657,7 @@
     padding: 0;
     margin: 10px;
     font-size: 30px;
-    text-align: center; }
-  .footer {
-    width: auto;
-    padding-bottom: 10px; } }
-
-/* MEDIA PARA VER CORRECTAMENTE EL TITULO Y LOGO EN GALAXY FOLD */
-@media screen and (max-width: 359px) {
-  .header__logo__nombre {
-    font-size: 25px; }
-  .header__logo__img {
-    width: auto;
-    height: 50px; } }
+    text-align: center; } }
 
 /*MEDIA HASTA 768px*/
 @media screen and (max-width: 768px) {
