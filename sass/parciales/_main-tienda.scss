@@ -1,4 +1,4 @@
-.main {
+.tienda__main {
         grid-area: main;
         background-color:rgb(0, 101, 148);
         & h2 {
@@ -11,14 +11,14 @@
             text-shadow: 3px -2px 3px rgb(0, 0, 0);
         }
 
-        &__tienda {
+        &__section {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             margin: 50px;
         }
 
-        &__tienda__producto {
+        &__producto {
             padding: 30px;
             background-color: rgba(0, 0, 0, 0.486);
             margin: 10px;
@@ -27,7 +27,7 @@
             width: 200px;
         }
 
-        &__tienda__producto:hover {
+        &__producto:hover {
             opacity: 0.9;
             transition: ease 0.4s;
             transition:  0.4s;
@@ -43,12 +43,12 @@
             border: 3px solid black;
         }
 
-        &__tienda__producto__form {
+        &__producto__form {
             display: flex;
             justify-content: center;
         }
 
-        &__tienda__producto__form__button {
+        &__producto__form__button {
             color: white;
             background-color: black;
             border-radius: 5px;
@@ -59,7 +59,7 @@
             padding: 5PX;
         }
 
-        &__tienda__producto__form__button:hover {
+        &__producto__form__button:hover {
             transform: scale(1.2);
             opacity: 0.9;
             transition: ease 0.5s;

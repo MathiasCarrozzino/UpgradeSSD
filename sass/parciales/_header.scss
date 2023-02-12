@@ -6,7 +6,7 @@
     align-items: center;
 
         &__logo__nombre {
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             font-size: 40px;
             font-style: oblique;
             text-shadow: 3px 3px 10px #149;}
@@ -32,7 +32,7 @@
         &__nav__anchor {
             font-weight: 600;
             padding: 18px;
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             text-decoration: none;}
 
         &__nav__anchor:hover {

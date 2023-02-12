@@ -1,4 +1,4 @@
-.main {
+.index__main {
         grid-area: main;
         &__servicios {
             display: flex;
@@ -14,7 +14,7 @@
             background-size:cover;}
 
         &__servicios__h2 {
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             text-shadow: 3px 3px 3px rgb(0, 76, 138);
             font-size: 45px;
             padding: 20px 0 20px 0;}
@@ -25,7 +25,7 @@
 
         &__cambio__h3 {
             font-size: 2rem !important;
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             text-align: center;
             padding: 40px;
             font-size: 25px;
@@ -44,7 +44,7 @@
             text-align: center;
             padding: 35px;
             height: auto;
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             font-size: 23px;}
 
         &__opciones__carta1 {
@@ -55,8 +55,8 @@
             ) ,url(../imagenes/disco.jpg);
             background-position: center center;
             background-size: cover;
-            color: rgb(11, 157, 197);
-            border: 2px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 2px solid $color-texto-border;
             margin: 3rem;}
 
         &__opciones__carta2 {
@@ -67,8 +67,8 @@
             ) ,url(../imagenes/disco.jpg);
             background-position: center center;
             background-size: cover;
-            color: rgb(11, 157, 197);
-            border: 2px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 2px solid $color-texto-border;
             margin: 3rem;}
 
         &__opciones__carta3 {
@@ -79,8 +79,8 @@
             ) ,url(../imagenes/disco.jpg);
             background-position: center center;
             background-size: cover;
-            color: rgb(11, 157, 197);
-            border: 2px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 2px solid $color-texto-border;
             margin: 3rem;}
 
         &__opciones__carta1__form {
@@ -94,8 +94,8 @@
 
         &__opciones__carta1__form__button {
             background-color: $background-color;
-            color: rgb(11, 157, 197);
-            border: 3px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 3px solid $color-texto-border;
             height: 45px;
             width: 125px;
             font-weight: 700;}
@@ -107,8 +107,8 @@
 
         &__opciones__carta2__form__button {
             background-color: $background-color;
-            color: rgb(11, 157, 197);
-            border: 3px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 3px solid $color-texto-border;
             height: 45px;
             width: 125px;
             font-weight: 700;}
@@ -120,8 +120,8 @@
 
         &__opciones__carta3__form__button {
             background-color: $background-color;
-            color: rgb(11, 157, 197);
-            border: 3px solid rgb(11, 157, 197);
+            color: $color-texto-border;
+            border: 3px solid $color-texto-border;
             height: 45px;
             width: 125px;
             font-weight: 700;}
@@ -145,7 +145,7 @@
             text-align: center;
             height: 250px;
             background-color: $background-color;
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             padding: 100px 30px 50px 30px;}
 
         &__presupuesto__titulo {
@@ -154,9 +154,9 @@
 
         &__presupuesto__form__button {
             padding: 1rem;
-            border: 4px solid rgb(11, 157, 197);
+            border: 4px solid $color-texto-border;
             background-color: $background-color;
-            color: rgb(11, 157, 197);
+            color: $color-texto-border;
             font-size: 1.5rem;
             font-weight: 700;}
 

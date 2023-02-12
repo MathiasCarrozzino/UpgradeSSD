@@ -1,0 +1,29 @@
+/*MEDIA HASTA 768px*/
+
+@media screen and (max-width: 768px) {
+    
+    .contacto__main {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacto__main__formulario {
+        width: auto;
+        margin: 25px;
+    }    
+    }
+
+/*MEDIA HASTA 425px*/
+
+@media screen and (max-width: 425px) {
+    
+    .contacto__main {
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacto__main__formulario {
+        width: auto;
+        margin: 25px;
+    }
+    }

@@ -1,99 +1,39 @@
-/*MEDIA 1024*/
 
-@media screen and (max-width: 1024px) {
-
-    .header {
-        display: grid;
-        width: auto;
-        justify-content: center;
-    }
-    
-    .header__logo {
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-    }
-    
-    .header__logo__img {
-        margin-left: 0px;
-    }
-    
-    .nav {
-        display: flex;
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-    }
-    
-}
-
-/*MEDIA 768*/
+/*MEDIA INDEX HASTA 768px*/
 
 @media screen and (max-width: 768px) {
-
-    .grid-contenedor {
-        height: none;
-        width: auto
-    }
     
-    .header {
-        display: grid;
-        justify-content: center;
+    .index__main {
         width: auto;
     }
     
-    .header__logo {
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-    }
-    
-    .header__logo__img {
-        margin-left: 0px;
-    }
-    
-    .nav {
-        display: flex;
-        margin: 0px;
-        padding: 0px;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-    }
-    
-    .main {
-        width: auto;
-    }
-    
-    .main__cambio__h3 {
+    .index__main__cambio__h3 {
         margin: 5px;
         padding: 5px;
     }
     
-    .main__cambio__p {
+    .index__main__cambio__p {
         margin: 5px;
         padding: 15px;
     }
     
-    .main__opciones {
+    .index__main__opciones {
         font-size: 22px;
         padding: 5px;
         margin: 0;
     }
     
-    .main__opciones__carta3__form__button {
+    .index__main__opciones__carta3__form__button {
         font-size: 15px;
     }
     
-    .main__caracteristicas__container__list {
+    .index__main__caracteristicas__container__list {
         display: contents;
         margin: 5px;
         padding: 5px;
     }
     
-    .main__presupuesto {
+    .index__main__presupuesto {
         text-align: center;
         height: auto;
         background-color: #111;
@@ -102,18 +42,13 @@
     }
     
     
-    .main__presupuesto__titulo {
+    .index__main__presupuesto__titulo {
         margin-bottom: 40px;
     }
     
-    .main__presupuesto__form__button {
+    .index__main__presupuesto__form__button {
         margin-bottom: 35px;
         margin-top: 20px;
-    }
-    
-    .footer{
-        width: auto;
-        padding-bottom: 10px;
     }
     
     }
@@ -121,65 +56,37 @@
 /*MEDIA 425*/
 
 @media screen and (max-width: 425px) {
-    
-    .grid-contenedor {
-        height: none;
-        width: auto
-    }
-
-    .header {
-        display: grid;
-        justify-content: center;
+    .index__main {
         width: auto;
     }
 
-    .header__logo {
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-    }
-
-    .header__logo__img {
-        margin-left: 0px;
-    }
-
-    .nav {
-        display: grid;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .main {
-        width: auto;
-    }
-
-    .main__cambio__h3 {
+    .index__main__cambio__h3 {
         margin: 5px;
         padding: 5px;
     }
 
-    .main__cambio__p {
+    .index__main__cambio__p {
         margin: 5px;
         padding: 15px;
     }
 
-    .main__opciones {
+    .index__main__opciones {
         font-size: 22px;
         padding: 5px;
         margin: 0;
     }
 
-    .main__opciones__carta3__form__button {
+    .index__main__opciones__carta3__form__button {
         font-size: 15px;
     }
 
-    .main__caracteristicas__container__list {
+    .index__main__caracteristicas__container__list {
         display: contents;
         margin: 5px;
         padding: 5px;
     }
 
-    .main__presupuesto {
+    .index__main__presupuesto {
         text-align: center;
         height: auto;
         background-color: #111;
@@ -188,33 +95,13 @@
     }
 
 
-    .main__presupuesto__titulo {
+    .index__main__presupuesto__titulo {
         margin-bottom: 40px;
     }
 
-    .main__presupuesto__form__button {
+    .index__main__presupuesto__form__button {
         margin-bottom: 35px;
         margin-top: 20px;
-    }
-
-    .footer{
-        width: auto;
-        padding-bottom: 10px;
-    }
-
-}
-
-/* MEDIA PARA VER CORRECTAMENTE EL TITULO Y LOGO EN GALAXY FOLD */
-
-@media screen and (max-width: 359px) {
-        
-    .header__logo__nombre {
-         font-size: 25px;
-    }
-
-    .header__logo__img {
-         width: auto;
-         height: 50px;
     }
 
 }

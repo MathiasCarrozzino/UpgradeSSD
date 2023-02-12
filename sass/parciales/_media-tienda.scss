@@ -1,0 +1,116 @@
+/*MEDIA TIENDA HASTA 768px*/
+
+@media screen and (max-width: 768px) {
+    .tienda__main {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .tienda__main__section {
+        margin: 10px;
+    }
+    
+    .tienda__main h2 {
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+        font-size: 25px;
+    }
+    
+    .tienda__main p {
+        padding: 20px;
+        margin: 0px;
+        font-size: 25px;
+    }
+    .tienda__main {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .tienda__main__producto {
+        padding: 5px;
+        margin: 5px;
+        width: 130px;
+    }
+    
+    .tienda__main img {
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+        border: 2px solid black;
+        margin-left: 3px;
+    }
+    
+    .tienda__main__producto__form__button {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+/*MEDIA TIENDA HASTA 425px*/
+
+@media screen and (max-width: 425px) {
+
+.tienda__main {
+    padding: 0;
+    margin: 0;
+}
+
+.tienda__main__section {
+    padding: 0;
+    margin: 0;
+}
+
+.tienda__main h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.tienda__main p {
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+}
+.tienda__main__tienda {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.tienda__main__producto {
+    padding: 5px;
+    margin: 5px;
+    width: 130px;
+}
+
+.tienda__main img {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-left: 3px;
+}
+
+.tienda__main__producto__form__button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+
+}
