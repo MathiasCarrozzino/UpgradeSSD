@@ -281,9 +281,10 @@
 
 .contacto__main {
   grid-area: main;
-  background-color: #273F4B; }
+  background-color: #273F4B;
+  padding: 20px; }
   .contacto__main__formulario {
-    width: 850px;
+    max-width: 1000px;
     background: #24303c;
     padding: 40px;
     margin: 50px auto 50px auto;
